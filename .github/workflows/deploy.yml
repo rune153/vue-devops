@@ -36,7 +36,8 @@ jobs:
 
       - name: Build page
         run: yarn build
-        env: NODE_ENV:production
+        env:
+          NODE_ENV: production
 
       # Runs a set of commands using the runners shell
       - name: Deploy to gh-pages
