@@ -28,7 +28,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@master
         with:
-        node-version: 14.x
+          node-version: 14.x
       # Runs a single command using the runners shell
 
       - name: Install dependencies
